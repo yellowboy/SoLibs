@@ -12,6 +12,18 @@
 		4981A90717F6FFC600F2AC51 /* SocketLibSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A90117F6FFC600F2AC51 /* SocketLibSocket.cpp */; };
 		4981A90817F6FFC600F2AC51 /* SocketLibTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A90317F6FFC600F2AC51 /* SocketLibTypes.cpp */; };
 		4981A90917F6FFC600F2AC51 /* SocketLibErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A90517F6FFC600F2AC51 /* SocketLibErrors.cpp */; };
+		4981A90C17F7016C00F2AC51 /* SocketLibSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A90A17F7016C00F2AC51 /* SocketLibSystem.cpp */; };
+		4981A90F17F7031600F2AC51 /* SocketSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A90D17F7031600F2AC51 /* SocketSet.cpp */; };
+		4981A91217F7054500F2AC51 /* Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A91017F7054500F2AC51 /* Connection.cpp */; };
+		4981A91617F7064F00F2AC51 /* BasicLibTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A91417F7064F00F2AC51 /* BasicLibTypes.cpp */; };
+		4981A91917F7088500F2AC51 /* BasicLibTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A91717F7088500F2AC51 /* BasicLibTime.cpp */; };
+		4981A91C17F709C600F2AC51 /* BasicLibString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A91A17F709C600F2AC51 /* BasicLibString.cpp */; };
+		4981A92317F70E2600F2AC51 /* ThreadException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A92117F70E2600F2AC51 /* ThreadException.cpp */; };
+		4981A92617F70E3500F2AC51 /* ThreadLibFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A92417F70E3500F2AC51 /* ThreadLibFunctions.cpp */; };
+		4981A92917F70E4400F2AC51 /* ThreadLibMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A92717F70E4400F2AC51 /* ThreadLibMutex.cpp */; };
+		4981A92C17F713F000F2AC51 /* ListeningManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A92A17F713F000F2AC51 /* ListeningManager.cpp */; };
+		4981A92F17F713FF00F2AC51 /* ConnectionHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A92D17F713FF00F2AC51 /* ConnectionHandler.cpp */; };
+		4981A93217F7140F00F2AC51 /* ConnectionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4981A93017F7140F00F2AC51 /* ConnectionManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +49,33 @@
 		4981A90417F6FFC600F2AC51 /* SocketLibTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketLibTypes.h; sourceTree = "<group>"; };
 		4981A90517F6FFC600F2AC51 /* SocketLibErrors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketLibErrors.cpp; sourceTree = "<group>"; };
 		4981A90617F6FFC600F2AC51 /* SocketLibErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketLibErrors.h; sourceTree = "<group>"; };
+		4981A90A17F7016C00F2AC51 /* SocketLibSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketLibSystem.cpp; sourceTree = "<group>"; };
+		4981A90B17F7016C00F2AC51 /* SocketLibSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketLibSystem.h; sourceTree = "<group>"; };
+		4981A90D17F7031600F2AC51 /* SocketSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketSet.cpp; sourceTree = "<group>"; };
+		4981A90E17F7031600F2AC51 /* SocketSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketSet.h; sourceTree = "<group>"; };
+		4981A91017F7054500F2AC51 /* Connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Connection.cpp; sourceTree = "<group>"; };
+		4981A91117F7054500F2AC51 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		4981A91417F7064F00F2AC51 /* BasicLibTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicLibTypes.cpp; sourceTree = "<group>"; };
+		4981A91517F7064F00F2AC51 /* BasicLibTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLibTypes.h; sourceTree = "<group>"; };
+		4981A91717F7088500F2AC51 /* BasicLibTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicLibTime.cpp; sourceTree = "<group>"; };
+		4981A91817F7088500F2AC51 /* BasicLibTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLibTime.h; sourceTree = "<group>"; };
+		4981A91A17F709C600F2AC51 /* BasicLibString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicLibString.cpp; sourceTree = "<group>"; };
+		4981A91B17F709C600F2AC51 /* BasicLibString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLibString.h; sourceTree = "<group>"; };
+		4981A91D17F70CAF00F2AC51 /* BasicLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicLib.h; sourceTree = "<group>"; };
+		4981A91E17F70D2800F2AC51 /* SocketLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketLib.h; sourceTree = "<group>"; };
+		4981A92017F70E0F00F2AC51 /* ThreadLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadLib.h; sourceTree = "<group>"; };
+		4981A92117F70E2600F2AC51 /* ThreadException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadException.cpp; sourceTree = "<group>"; };
+		4981A92217F70E2600F2AC51 /* ThreadException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadException.h; sourceTree = "<group>"; };
+		4981A92417F70E3500F2AC51 /* ThreadLibFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadLibFunctions.cpp; sourceTree = "<group>"; };
+		4981A92517F70E3500F2AC51 /* ThreadLibFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadLibFunctions.h; sourceTree = "<group>"; };
+		4981A92717F70E4400F2AC51 /* ThreadLibMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadLibMutex.cpp; sourceTree = "<group>"; };
+		4981A92817F70E4400F2AC51 /* ThreadLibMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadLibMutex.h; sourceTree = "<group>"; };
+		4981A92A17F713F000F2AC51 /* ListeningManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListeningManager.cpp; sourceTree = "<group>"; };
+		4981A92B17F713F000F2AC51 /* ListeningManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeningManager.h; sourceTree = "<group>"; };
+		4981A92D17F713FF00F2AC51 /* ConnectionHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectionHandler.cpp; sourceTree = "<group>"; };
+		4981A92E17F713FF00F2AC51 /* ConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		4981A93017F7140F00F2AC51 /* ConnectionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectionManager.cpp; sourceTree = "<group>"; };
+		4981A93117F7140F00F2AC51 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +108,8 @@
 		4981A8F617F6FF0900F2AC51 /* SoLibs */ = {
 			isa = PBXGroup;
 			children = (
+				4981A91F17F70DEB00F2AC51 /* ThreadLibs */,
+				4981A91317F7063300F2AC51 /* BaseLibs */,
 				4981A90017F6FFB500F2AC51 /* SocketLibs */,
 				4981A8F717F6FF0900F2AC51 /* main.cpp */,
 				4981A8F917F6FF0900F2AC51 /* SoLibs.1 */,
@@ -85,8 +126,49 @@
 				4981A90417F6FFC600F2AC51 /* SocketLibTypes.h */,
 				4981A90517F6FFC600F2AC51 /* SocketLibErrors.cpp */,
 				4981A90617F6FFC600F2AC51 /* SocketLibErrors.h */,
+				4981A90A17F7016C00F2AC51 /* SocketLibSystem.cpp */,
+				4981A90B17F7016C00F2AC51 /* SocketLibSystem.h */,
+				4981A90D17F7031600F2AC51 /* SocketSet.cpp */,
+				4981A90E17F7031600F2AC51 /* SocketSet.h */,
+				4981A91017F7054500F2AC51 /* Connection.cpp */,
+				4981A91117F7054500F2AC51 /* Connection.h */,
+				4981A91E17F70D2800F2AC51 /* SocketLib.h */,
+				4981A92A17F713F000F2AC51 /* ListeningManager.cpp */,
+				4981A92B17F713F000F2AC51 /* ListeningManager.h */,
+				4981A92D17F713FF00F2AC51 /* ConnectionHandler.cpp */,
+				4981A92E17F713FF00F2AC51 /* ConnectionHandler.h */,
+				4981A93017F7140F00F2AC51 /* ConnectionManager.cpp */,
+				4981A93117F7140F00F2AC51 /* ConnectionManager.h */,
 			);
 			name = SocketLibs;
+			sourceTree = "<group>";
+		};
+		4981A91317F7063300F2AC51 /* BaseLibs */ = {
+			isa = PBXGroup;
+			children = (
+				4981A91417F7064F00F2AC51 /* BasicLibTypes.cpp */,
+				4981A91517F7064F00F2AC51 /* BasicLibTypes.h */,
+				4981A91717F7088500F2AC51 /* BasicLibTime.cpp */,
+				4981A91817F7088500F2AC51 /* BasicLibTime.h */,
+				4981A91A17F709C600F2AC51 /* BasicLibString.cpp */,
+				4981A91B17F709C600F2AC51 /* BasicLibString.h */,
+				4981A91D17F70CAF00F2AC51 /* BasicLib.h */,
+			);
+			name = BaseLibs;
+			sourceTree = "<group>";
+		};
+		4981A91F17F70DEB00F2AC51 /* ThreadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				4981A92017F70E0F00F2AC51 /* ThreadLib.h */,
+				4981A92117F70E2600F2AC51 /* ThreadException.cpp */,
+				4981A92217F70E2600F2AC51 /* ThreadException.h */,
+				4981A92417F70E3500F2AC51 /* ThreadLibFunctions.cpp */,
+				4981A92517F70E3500F2AC51 /* ThreadLibFunctions.h */,
+				4981A92717F70E4400F2AC51 /* ThreadLibMutex.cpp */,
+				4981A92817F70E4400F2AC51 /* ThreadLibMutex.h */,
+			);
+			name = ThreadLibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +222,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4981A91617F7064F00F2AC51 /* BasicLibTypes.cpp in Sources */,
+				4981A93217F7140F00F2AC51 /* ConnectionManager.cpp in Sources */,
+				4981A91C17F709C600F2AC51 /* BasicLibString.cpp in Sources */,
+				4981A92F17F713FF00F2AC51 /* ConnectionHandler.cpp in Sources */,
 				4981A90817F6FFC600F2AC51 /* SocketLibTypes.cpp in Sources */,
 				4981A90917F6FFC600F2AC51 /* SocketLibErrors.cpp in Sources */,
+				4981A90C17F7016C00F2AC51 /* SocketLibSystem.cpp in Sources */,
+				4981A92917F70E4400F2AC51 /* ThreadLibMutex.cpp in Sources */,
+				4981A92317F70E2600F2AC51 /* ThreadException.cpp in Sources */,
 				4981A8F817F6FF0900F2AC51 /* main.cpp in Sources */,
+				4981A92617F70E3500F2AC51 /* ThreadLibFunctions.cpp in Sources */,
+				4981A92C17F713F000F2AC51 /* ListeningManager.cpp in Sources */,
+				4981A91217F7054500F2AC51 /* Connection.cpp in Sources */,
+				4981A91917F7088500F2AC51 /* BasicLibTime.cpp in Sources */,
 				4981A90717F6FFC600F2AC51 /* SocketLibSocket.cpp in Sources */,
+				4981A90F17F7031600F2AC51 /* SocketSet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
