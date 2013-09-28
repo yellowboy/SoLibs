@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1EBD850B-C655-4BAA-89B3-EBF83FBC37DD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SoLibs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6EDEF3E-2887-42AD-AAF2-00931A7DC8FC</key>
+		<string>https://github.com/yellowboy/SoLibs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SoLibs/SoLibs.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6EDEF3E-2887-42AD-AAF2-00931A7DC8FC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yellowboy/SoLibs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6EDEF3E-2887-42AD-AAF2-00931A7DC8FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6EDEF3E-2887-42AD-AAF2-00931A7DC8FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SoLibs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
