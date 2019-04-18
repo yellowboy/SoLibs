@@ -1,4 +1,4 @@
-SoLibs
+SocketLibs
 ======
 
 ooo
